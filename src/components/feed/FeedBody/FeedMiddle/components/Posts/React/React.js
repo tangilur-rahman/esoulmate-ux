@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./React.css";
 
+//own components
+import Liked from "./Liked/Liked";
+import CommentBox from "./CommentBox/CommentBox";
+
 const React = () => {
 	const [love, setLove] = useState(false);
 	const [bookmark, setBookmark] = useState(false);
@@ -20,7 +24,7 @@ const React = () => {
 							)}
 						</span>
 
-						<label htmlFor="comment">
+						<label htmlFor="for-comment">
 							<i className="bi bi-chat-heart"></i>
 						</label>
 
@@ -45,37 +49,9 @@ const React = () => {
 				</div>
 				{/* react-icons end  */}
 
-				{/* liked section start  */}
-				<div className="liked-container">
-					<div className="liked-by">
-						<span>
-							<img
-								src="/assets/images/profile/tangil.png"
-								className="img-fluid"
-								alt="profile-img"
-							/>
-						</span>
-						<span>
-							<img
-								src="/assets/images/profile/developer-4.png"
-								className="img-fluid"
-								alt="profile-img"
-							/>
-						</span>
-						<span>
-							<img
-								src="/assets/images/profile/developer-5.png"
-								className="img-fluid"
-								alt="profile-img"
-							/>
-						</span>
+				<Liked />
 
-						<p>
-							Liked by <b>Tangilur Rahman</b> and <b>2,323 others</b>
-						</p>
-					</div>
-				</div>
-				{/* liked section end  */}
+				<CommentBox/>
 
 				{/* react-container end  */}
 			</div>

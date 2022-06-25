@@ -1,4 +1,5 @@
-import posts from "./../../../../../../dummy-data/single_post.json";
+import posts from "./../../../../../../dummy-data/posts.json";
+// import posts from "./../../../../../../dummy-data/single_post.json";
 import "./Post.css";
 
 // own components
