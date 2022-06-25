@@ -1,4 +1,4 @@
-import posts from "./../../../../../../dummy-data/posts.json";
+import posts from "./../../../../../../dummy-data/single_post.json";
 import "./Post.css";
 
 // own components
@@ -8,6 +8,7 @@ import Pdf from "./attachments/Pdf/Pdf";
 import Video from "./attachments/Video/Video";
 import Description from "./Description/Description";
 import Header from "./Header/Header";
+import React from "./React/React";
 
 const Posts = () => {
 	return (
@@ -38,6 +39,8 @@ const Posts = () => {
 									(type === "document" && <Pdf post={post} />)}
 							</div>
 							{/* attachment section end  */}
+
+							<React/>
 							{/* post section end  */}
 						</div>
 					);
