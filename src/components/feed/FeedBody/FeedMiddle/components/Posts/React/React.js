@@ -14,26 +14,31 @@ const React = () => {
 							{love ? (
 								<i className="bi bi-heart-fill active" id="fill-love"></i>
 							) : (
-								<i className="bi bi-suit-heart inactive" id="empty-love" ></i>
+								<i className="bi bi-suit-heart inactive" id="empty-love"></i>
 							)}
 						</span>
 
-                  <label htmlFor="comment">
-                  <i className="bi bi-chat-heart"></i>
-                  </label>
-						
+						<label htmlFor="comment">
+							<i className="bi bi-chat-heart"></i>
+						</label>
 
-                  <div className="share">
-                     <i className="bi bi-share"></i>
-                  </div>
-						
+						<div className="share">
+							<i className="bi bi-share"></i>
+						</div>
 					</div>
 
-					<div className="right" onClick={()=> setBookmark(!bookmark)}>
-               {
-                  bookmark ? <i class="bi bi-bookmark-heart-fill active" id="fill-bookmark"></i> : <i className="bi bi-bookmark-heart inactive" id="empty-bookmark"></i>
-               }
-						
+					<div className="right" onClick={() => setBookmark(!bookmark)}>
+						{bookmark ? (
+							<i
+								class="bi bi-bookmark-heart-fill active"
+								id="fill-bookmark"
+							></i>
+						) : (
+							<i
+								className="bi bi-bookmark-heart inactive"
+								id="empty-bookmark"
+							></i>
+						)}
 					</div>
 				</div>
 			</div>
