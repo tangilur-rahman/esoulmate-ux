@@ -2,6 +2,7 @@
 
 :root {
 	--card-border-radius: 16px;
+	--box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
 }
 
 * {
