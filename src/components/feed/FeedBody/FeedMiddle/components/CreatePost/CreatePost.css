@@ -275,9 +275,20 @@
 	transition: all 0.5s linear;
 	color: white;
 }
+
+.share-container label.active {
+	opacity: 0.8;
+	cursor: default;
+}
+
+.share-container label.active:hover {
+	border: none;
+}
+
 .share-container label h4 {
 	margin: 0;
 	font-size: 1.4rem;
 }
+
 /* share-container end  */
 /* create post end  */

@@ -51,7 +51,15 @@ const React = () => {
 
 				<Liked />
 
-				<CommentBox/>
+				{/* comments section start  */}
+				<div className="comment-container">
+					<div className="all-comments">
+						View <span>235</span> previous comments
+						<hr />
+					</div>
+					<CommentBox />
+				</div>
+				{/* comments section end  */}
 
 				{/* react-container end  */}
 			</div>

@@ -1,22 +1,3 @@
-/* comment section start  */
-.comment-container {
-	margin: 10px 0 0 0;
-}
-
-.comment-container .all-comments {
-	width: max-content;
-	cursor: pointer;
-	font-size: 15px;
-}
-
-.comment-container .all-comments:hover {
-	color: #219ebc;
-}
-
-.comment-container .all-comments hr {
-	margin: 0;
-}
-
 /* recent comment start  */
 .comment-container .recent-comment {
 	margin: 10px 0 0 0;
@@ -59,6 +40,7 @@
 .recent-comment .comment-box .comment h6 {
 	margin: 0;
 	font-size: 14px;
+	color: black;
 }
 .recent-comment .comment-box .comment p {
 	margin: 0;
@@ -123,10 +105,52 @@
 	}
 }
 
-.recent-comment .comment-box .react #reply {
+.recent-comment .comment-box .react #for-reply {
 	cursor: pointer;
 }
 /* react section end  */
+
+/* comment-toggle-container start  */
+
+.comment-toggle-container {
+	margin: 7px 0 0 0;
+	position: relative;
+	width: max-content;
+}
+
+.comment-toggle-container::before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	z-index: 1;
+	width: 10px;
+	height: 10px;
+	border: 3px solid #05668d;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(-45deg);
+	transition: 0.5s;
+	pointer-events: none;
+}
+
+.comment-toggle-container.active::before {
+	top: 6px;
+	transform: rotate(-225deg);
+}
+
+.comment-toggle-container h6 {
+	font-size: 14px;
+	color: #219ebc;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+.comment-toggle-container h6 b {
+	font-weight: 600;
+	color: #05668d;
+}
+
+/* comment-toggle-container end  */
 /* recent comment end  */
 
 /* comment-input start  */
@@ -172,4 +196,3 @@
 }
 
 /* comment-input end  */
-/* comment section end  */

@@ -41,7 +41,7 @@ const Posts = () => {
 							</div>
 							{/* attachment section end  */}
 
-							<React/>
+							<React />
 							{/* post section end  */}
 						</div>
 					);

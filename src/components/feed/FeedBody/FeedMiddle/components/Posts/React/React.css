@@ -132,3 +132,23 @@
 	}
 }
 /* react-icons right end  */
+
+/* comment section start  */
+.comment-container {
+	margin: 10px 0 0 0;
+}
+
+.comment-container .all-comments {
+	width: max-content;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.comment-container .all-comments:hover {
+	color: #219ebc;
+}
+
+.comment-container .all-comments hr {
+	margin: 0;
+}
+/* comment section start  */

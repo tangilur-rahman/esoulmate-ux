@@ -10,6 +10,14 @@ const CreatePost = () => {
 	// for knowledge selection
 	const [knowledge, setKnowledge] = useState("");
 	const [dropdown, setDropdown] = useState("");
+
+	// for post-text
+	const [postText, setPostText] = useState("");
+
+	const onChangeHandler = (event)=>{
+	   setPostText(event.target.value);
+	}
+
   return (
     <>
       {/* create-post section start  */}
@@ -61,6 +69,8 @@ const CreatePost = () => {
 								autoFocus
 								id="create-post"
 								placeholder="Share your knowledge & skills or ask me ..."
+								onChange={onChangeHandler}
+								value={postText}
 							/>
 
 							<input
@@ -172,7 +182,7 @@ const CreatePost = () => {
 								</div>
 							</div>
 						</div>
-						<label htmlFor="for-share">
+						<label htmlFor="for-share" className={postText ? "" : "active"}>
 							<h4>Share</h4>
 						</label>
 					</div>
