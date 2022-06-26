@@ -1,7 +1,7 @@
-import "./CommentInputReply.css";
 import Picker from "emoji-picker-react";
 import { useState } from "react";
 import TextareaAutosize from "react-textarea-autosize";
+import "./CommentInputReply.css";
 
 const CommentInputReply = () => {
 	// eslint-disable-next-line no-unused-vars
@@ -64,7 +64,7 @@ const CommentInputReply = () => {
 								pickerStyle={{
 									position: "absolute",
 									bottom: "40px",
-									width: "50%"
+									width: "75%"
 								}}
 							/>
 						)}
