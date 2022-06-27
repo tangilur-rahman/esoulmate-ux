@@ -1,8 +1,8 @@
 import "./FeedPage.css";
 
 // own components
-import Navbar from "../../components/feed/Navbar/Navbar";
-import FeedBody from "../../components/feed/FeedBody/FeedBody";
+import Navbar from "../../components/for_feed/Navbar/Navbar";
+import FeedBody from "../../components/for_feed/FeedBody/FeedBody";
 
 const FeedPage = () => {
 	return (

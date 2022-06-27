@@ -35,9 +35,13 @@ const Navbar = () => {
 
 						<i className="bi bi-people-fill"></i>
 
-						<i className="bi bi-chat-heart"></i>
+						<span>
+							<i className="bi bi-chat-heart"></i>
+						</span>
 
-						<i className="bi bi-bell"></i>
+						<span>
+							<i className="bi bi-bell"></i>
+						</span>
 					</div>
 
 					<img
