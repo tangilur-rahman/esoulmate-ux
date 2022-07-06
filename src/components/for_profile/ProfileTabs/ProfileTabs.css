@@ -1,0 +1,24 @@
+.profile-tab-container {
+	padding: 0 3%;
+	display: flex;
+}
+
+.profile-tab-container .tab {
+	padding: 13px 18px 10px 13px;
+	margin: 0 0 0 5px;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 5px 5px 0 0;
+}
+
+.profile-tab-container .tab:hover {
+	background-color: #eef1ec;
+}
+
+.profile-tab-container .tab.active {
+	border-bottom: 3px solid blue;
+	margin-top: 3px;
+}

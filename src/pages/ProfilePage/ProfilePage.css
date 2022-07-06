@@ -1,5 +1,19 @@
-.profile-page-container {
+.profile-first-container {
 	display: flex;
 	justify-content: center;
-	padding: 0 12px;
+	background-color: white;
+	box-shadow: var(--box-shadow);
+}
+.profile-img-container {
+	border-radius: 0 0 10px 10px;
+}
+
+.profile-img-container hr {
+	margin: 17px 3% 5px;
+}
+
+.profile-second-container {
+	display: flex;
+	justify-content: center;
+	margin: 13px 0 0 0;
 }

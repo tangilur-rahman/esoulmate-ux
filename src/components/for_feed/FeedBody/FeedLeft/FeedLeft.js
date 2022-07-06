@@ -9,7 +9,6 @@ const FeedLeft = () => {
 	const [bookmark, setBookmark] = useState(false);
 	const [wishlist, setWishlist] = useState(false);
 	const [purchase, setPurchase] = useState(false);
-	const [donate, setDonate] = useState(false);
 	const [sitting, setSitting] = useState(false);
 
 	const feedClicked = () => {
@@ -19,7 +18,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(false);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(false);
 	};
 
@@ -30,7 +28,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(false);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(false);
 	};
 
@@ -41,7 +38,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(false);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(false);
 	};
 
@@ -52,7 +48,6 @@ const FeedLeft = () => {
 		setBookmark(true);
 		setWishlist(false);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(false);
 	};
 
@@ -63,7 +58,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(true);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(false);
 	};
 
@@ -74,18 +68,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(false);
 		setPurchase(true);
-		setDonate(false);
-		setSitting(false);
-	};
-
-	const donateClicked = () => {
-		setFeed(false);
-		setPage(false);
-		setExplore(false);
-		setBookmark(false);
-		setWishlist(false);
-		setPurchase(false);
-		setDonate(true);
 		setSitting(false);
 	};
 
@@ -96,7 +78,6 @@ const FeedLeft = () => {
 		setBookmark(false);
 		setWishlist(false);
 		setPurchase(false);
-		setDonate(false);
 		setSitting(true);
 	};
 
@@ -160,14 +141,6 @@ const FeedLeft = () => {
 					>
 						<i className="bi bi-bag-heart"></i>
 						<h5>Purchase</h5>
-					</span>
-
-					<span
-						className={donate ? "donate-active" : null}
-						onClick={donateClicked}
-					>
-						<i className="bi bi-balloon-heart-fill"></i>
-						<h5>Donate Us</h5>
 					</span>
 
 					<span

@@ -1,13 +1,13 @@
 /* post-container start  */
 .post-container {
-	margin: 25px 0 25px 0;
+	margin: 20px 0 20px 0;
 	border-radius: 1rem;
 	background-color: white;
 	padding-bottom: 15px;
 }
 
 /* attachment section start  */
-.post-container .attachment-container {
+.post-container .attachment-main-container {
 	margin: 12px 0 0 0;
 	padding: 0 12px;
 	width: 100%;

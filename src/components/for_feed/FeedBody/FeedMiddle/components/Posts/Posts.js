@@ -33,7 +33,7 @@ const Posts = () => {
 							<Description description={description} />
 
 							{/* attachment section start  */}
-							<div className="attachment-container">
+							<div className="attachment-main-container">
 								{(type === "image" && <Image post={post} />) ||
 									(type === "video" && <Video post={post} />) ||
 									(type === "audio" && <Audio post={post} />) ||

@@ -19,7 +19,7 @@
 
 .hashtags-container h5 hr {
 	width: 100%;
-	margin: 3px 0 0 0;
+	margin: 3px 0 0 4px;
 	height: 2px;
 	color: #00a896;
 	opacity: 1;
@@ -29,11 +29,12 @@
 .hashtags-container .hashtag {
 	display: flex;
 	flex-direction: column;
+	margin: 5px 0 0 5px;
 }
 
 .hashtags-container .hashtag span {
 	display: flex;
-	margin: 7px 0 5px 0;
+	margin: 8px 0 8px 0;
 }
 
 .hashtags-container .hashtag span i {

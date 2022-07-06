@@ -15,7 +15,6 @@
 	top: 5.4rem;
 	height: max-content;
 	-moz-height: max-content;
-	height: 1000px;
 }
 
 /* user-info start  */
@@ -25,6 +24,7 @@
 	padding: 18px 0;
 	background-color: white;
 	border-radius: var(--card-border-radius);
+	box-shadow: var(--box-shadow);
 }
 
 .feed-left .user-info img {
@@ -44,8 +44,7 @@
 	margin: 12px 0 0 0;
 	background-color: white;
 	border-radius: var(--card-border-radius);
-	overflow-y: scroll;
-	height: 73vh;
+	box-shadow: var(--box-shadow);
 }
 
 .sidebar-container::-webkit-scrollbar {
@@ -57,7 +56,7 @@
 
 .sidebar-container span {
 	display: flex;
-	padding: 20px 0;
+	padding: 20.5px 0;
 	align-items: center;
 	cursor: pointer;
 	position: relative;
@@ -155,19 +154,6 @@
 	background-color: #1a479e;
 }
 
-.sidebar-container .donate-active {
-	background-color: hsl(252, 30%, 95%);
-	color: hsl(252deg 75% 60%);
-}
-.sidebar-container .donate-active::before {
-	content: "";
-	display: block;
-	width: 0.5rem;
-	height: 100%;
-	position: absolute;
-	background-color: #1a479e;
-}
-
 .sidebar-container .sitting-active {
 	background-color: hsl(252, 30%, 95%);
 	color: hsl(252deg 75% 60%);
@@ -197,7 +183,7 @@
 
 /* sidebar button start  */
 .feed-left .create-post-btn {
-	margin: 30px 0 0 0;
+	margin: 21px 0 20px 0;
 	background-color: #1a479e;
 	width: 100%;
 	padding: 16px;

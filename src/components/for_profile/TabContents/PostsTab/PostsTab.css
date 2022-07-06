@@ -1,0 +1,36 @@
+.post-tab-main-container {
+	gap: 1rem;
+	display: flex;
+}
+/* intro-container start  */
+.intro-container {
+	background-color: white;
+	box-shadow: var(--box-shadow);
+	padding: 15px;
+	border-radius: var(--card-border-radius);
+}
+
+.intro-container h5 {
+	font-weight: 600;
+}
+
+.intro-container .intro-info {
+	margin: 16px 0 0 0;
+	font-size: 15px;
+}
+
+.intro-container .intro-info i {
+	margin: 0 13px 0 3px;
+	color: #738290;
+}
+
+.intro-container .intro-info span {
+	font-weight: 500;
+}
+/* intro-container end  */
+
+/* post-container start  */
+.post-tab-container {
+	margin: 10px 0 0 0;
+}
+/* post-container end  */

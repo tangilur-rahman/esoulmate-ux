@@ -1,7 +1,4 @@
 /* profile-img-container start  */
-.profile-img-container {
-	position: relative;
-}
 
 .profile-img-container #cover-img {
 	width: 100%;
@@ -12,11 +9,10 @@
 }
 
 .profile-img-container .profile-img {
-	position: absolute;
 	display: flex;
-	bottom: -34%;
 	width: 100%;
 	padding: 0 3%;
+	margin: -43px 0 0 0;
 }
 
 .profile-img-container .profile-img #profile-img {
@@ -49,7 +45,7 @@
 
 .profile-img-container .profile-img .profile-info {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
 	flex-grow: 1;
 }
@@ -57,7 +53,7 @@
 .profile-img .profile-info .user-info {
 	display: flex;
 	flex-direction: column;
-	margin: 0 0 0 18px;
+	margin: 42px 0 0 18px;
 }
 
 .profile-img .profile-info .user-info h2 {
@@ -92,6 +88,7 @@
 .profile-img-container .profile-img .profile-btn {
 	display: flex;
 	align-items: center;
+	align-self: flex-end;
 }
 
 .profile-img .profile-btn button {
