@@ -2,35 +2,17 @@
 	gap: 1rem;
 	display: flex;
 }
-/* intro-container start  */
-.intro-container {
-	background-color: white;
-	box-shadow: var(--box-shadow);
-	padding: 15px;
-	border-radius: var(--card-border-radius);
-}
 
-.intro-container h5 {
-	font-weight: 600;
+.post-tab-main-container .post-left-container {
+	padding: 0;
+	height: max-content;
+	-moz-height: max-content;
+	position: sticky;
+	top: -47.5rem;
+	bottom: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
-
-.intro-container .intro-info {
-	margin: 16px 0 0 0;
-	font-size: 15px;
-}
-
-.intro-container .intro-info i {
-	margin: 0 13px 0 3px;
-	color: #738290;
-}
-
-.intro-container .intro-info span {
-	font-weight: 500;
-}
-/* intro-container end  */
-
-/* post-container start  */
-.post-tab-container {
+.post-tab-main-container .post-right-container {
 	margin: 10px 0 0 0;
 }
-/* post-container end  */

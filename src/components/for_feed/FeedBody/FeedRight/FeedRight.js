@@ -11,8 +11,8 @@ const FeedRight = () => {
 			{/* **** feed-right start **** */}
 			<div className="col-3 p-0 feed-right">
 				<Sponsors />
-				<TrendingPage/>
-				<Hashtags/>
+				<TrendingPage />
+				<Hashtags />
 			</div>
 			{/* **** feed-right end **** */}
 		</>

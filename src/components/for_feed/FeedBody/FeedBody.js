@@ -1,5 +1,3 @@
-import "./FeedBody.css";
-
 //own components
 import FeedLeft from "./FeedLeft/FeedLeft";
 import FeedMiddle from "./FeedMiddle/FeedMiddle";

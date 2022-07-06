@@ -27,6 +27,10 @@ body {
 	overflow: hidden;
 }
 
+.link {
+	text-decoration: none;
+}
+
 /* title-tip down */
 .title-tip[title]:hover {
 	position: relative;

@@ -1,20 +1,38 @@
 [
 	{
-		"friend": "/assets/images/profile/mehrab.png"
+		"friend": "/assets/images/profile/mehrab.png",
+		"name": "Mehrab Hossain"
 	},
 	{
-		"friend": "/assets/images/profile/developer-2.png"
+		"friend": "/assets/images/profile/developer-2.png",
+		"name": "Shakib Al Hassan"
 	},
 	{
-		"friend": "/assets/images/profile/developer-3.png"
+		"friend": "/assets/images/profile/developer-3.png",
+		"name": "Tamim Iqbal"
 	},
 	{
-		"friend": "/assets/images/profile/developer-4.png"
+		"friend": "/assets/images/profile/developer-4.png",
+		"name": "Mehedi Hassan"
 	},
 	{
-		"friend": "/assets/images/profile/developer-5.png"
+		"friend": "/assets/images/profile/developer-5.png",
+		"name": "Sazzad Sarkar"
 	},
 	{
-		"friend": "/assets/images/profile/developer-6.png"
+		"friend": "/assets/images/profile/developer-6.png",
+		"name": "Mosaraf Sagor dfdfafdfadf fgfgsdgsdfgf"
+	},
+	{
+		"friend": "/assets/images/profile/proImg-2.png",
+		"name": "Simul"
+	},
+	{
+		"friend": "/assets/images/profile/tangil.png",
+		"name": "Tangilur Rahman"
+	},
+	{
+		"friend": "/assets/images/profile/mehrab.png",
+		"name": "Mehrab"
 	}
 ]

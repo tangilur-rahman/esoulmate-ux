@@ -1,5 +1,5 @@
 import "./TrendingPage.css";
-import pageFollow from "./../../../../../../dummy-data/trendingPage.json";
+import pageFollow from "../../../../../../dummy-data/trendingPage.json";
 
 const TrendingPage = () => {
 	return (

@@ -15,7 +15,7 @@ const ProfileTabs = ({ tabToggle, setTabToggle }) => {
 					className={tabToggle === 2 ? "tab active" : "tab"}
 					onClick={() => setTabToggle(2)}
 				>
-					Friends
+					Following
 				</div>
 				<div
 					className={tabToggle === 3 ? "tab active" : "tab"}
