@@ -19,6 +19,7 @@
 
 .rpv-core__inner-pages--vertical::-webkit-scrollbar {
 	width: 5px;
+	height: 7px;
 	background-color: #3b3535;
 }
 

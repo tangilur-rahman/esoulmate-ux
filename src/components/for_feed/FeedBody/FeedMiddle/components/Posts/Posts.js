@@ -34,10 +34,10 @@ const Posts = () => {
 
 							{/* attachment section start  */}
 							<div className="attachment-main-container">
-								{(type === "image" && <Image post={post} />) ||
-									(type === "video" && <Video post={post} />) ||
-									(type === "audio" && <Audio post={post} />) ||
-									(type === "document" && <Pdf post={post} />)}
+								{(type === "image" && <Image image={post} />) ||
+									(type === "video" && <Video video={post} />) ||
+									(type === "audio" && <Audio audio={post} />) ||
+									(type === "document" && <Pdf pdf={post} />)}
 							</div>
 							{/* attachment section end  */}
 

@@ -18,7 +18,14 @@ const Photos = () => {
 				<div className="photo row row-cols-3">
 					{friends &&
 						friends.map((value, index) => {
-							return <img src={value.friend} alt="friend-img" key={index} className="img-fluid" />;
+							return (
+								<img
+									src={value.friend}
+									alt="friend-img"
+									key={index}
+									className="img-fluid"
+								/>
+							);
 						})}
 				</div>
 			</div>

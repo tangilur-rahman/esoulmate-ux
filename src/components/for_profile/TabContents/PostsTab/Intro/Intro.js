@@ -11,33 +11,47 @@ const Intro = () => {
 
 				<div className="intro-info">
 					<i className="bi bi-mortarboard-fill"></i>
-					studies <span>CST</span> at{" "}
-					<span>Yunnan Technology & Business University</span>
+					<div>
+						studies <span>CST</span> at{" "}
+						<span>Yunnan Technology & Business University</span>
+					</div>
 				</div>
 
 				<div className="intro-info">
 					<i className="bi bi-house-heart-fill"></i>
-					Lives in <span> Kunming, Yunnan</span>
+					<div>
+						Lives in <span> Kunming, Yunnan</span>
+					</div>
 				</div>
 
 				<div className="intro-info">
 					<i className="bi bi-geo-alt-fill"></i>
-					From <span>Akkelpur, Rajshahi, Bangladesh</span>
+					<div>
+						From <span>Akkelpur, Rajshahi, Bangladesh</span>
+					</div>
 				</div>
 
 				<div className="intro-info">
 					<i className="bi bi-envelope-heart-fill"></i>
-					Email : <span>mohammadtangilurrahman@gmail.com</span>
+					<div>
+					
+						Email : <span>mohammadtangilur@gmail.com</span>
+					</div>
 				</div>
 
 				<div className="intro-info">
 					<i className="bi bi-telephone-fill"></i>
-					Phone : <span>+88 01750928575</span>
+					<div>
+						
+						Phone : <span>+88 01750928575</span>
+					</div>
 				</div>
 
 				<div className="intro-info">
 					<i className="bi bi-geo-alt-fill"></i>
-					Followed by <span>187 peoples</span>
+					<div>
+						Followed by <span>187 peoples</span>
+					</div>
 				</div>
 			</div>
 		</>

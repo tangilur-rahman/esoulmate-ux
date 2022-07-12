@@ -20,7 +20,7 @@ const ProfileImg = () => {
 				<div className="profile-info">
 					<div className="user-info">
 						<h2>Tangilur Rahman</h2>
-						<span>3.2k friends </span>
+						<span>3.2k following </span>
 
 						<div className="friends">
 							{friend &&
@@ -29,7 +29,7 @@ const ProfileImg = () => {
 										<div key={index}>
 											<img
 												src={value.friend}
-												alt="friend-img"
+												alt="follower-img"
 												className={
 													index === 0 ? "img-fluid firstEle" : "img-fluid"
 												}
@@ -40,12 +40,23 @@ const ProfileImg = () => {
 						</div>
 					</div>
 
-					<div className="profile-btn">
+					<div className="profile-btn" style={{ display: "none" }}>
 						<button>
 							<i className="bi bi-plus-circle"></i>Add to Story
 						</button>
 						<button>
 							<i className="bi bi-pencil"></i>Edit profile
+						</button>
+					</div>
+
+					<div className="profile-btn" id="for-others">
+						<button>
+							<i className="bi bi-chat-heart"></i>Message
+						</button>
+
+						<button style={{ color: "#023e8a", fontWeight: "700" }}>
+							<i className="bi bi-plus-circle"></i>Follow
+							{/* <i class="bi bi-dash-circle"></i>Unfollow */}
 						</button>
 					</div>
 				</div>

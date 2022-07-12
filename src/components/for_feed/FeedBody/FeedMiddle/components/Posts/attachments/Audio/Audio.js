@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./Audio.css";
 
-const Audio = ({ post }) => {
+const Audio = ({ audio }) => {
 	// state
 	const [isPlaying, setIsPlaying] = useState(false);
 	const [duration, setDuration] = useState(0);
@@ -84,7 +84,7 @@ const Audio = ({ post }) => {
 						{/* audio tag  */}
 						<audio
 							ref={audioPlayer}
-							src={post}
+							src={audio}
 							preload="metadata"
 							onLoadedMetadata={onLoadedMetadata}
 						></audio>

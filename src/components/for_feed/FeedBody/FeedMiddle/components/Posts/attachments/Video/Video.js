@@ -1,9 +1,9 @@
 import "./Video.css";
 
-const Video = ({ post }) => {
+const Video = ({ video }) => {
 	return (
 		<video
-			src={post}
+			src={video}
 			controls="controls"
 			controlsList="nodownload"
 			autoPlay={true}
