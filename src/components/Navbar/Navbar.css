@@ -43,7 +43,8 @@
 	background-color: #f0eef6;
 	width: 99%;
 	border-radius: 30px;
-	padding: 11px;
+	padding: 0 11px;
+	height: 54px;
 }
 
 .navbar-middle .search-bar i {
@@ -113,4 +114,154 @@
 	transform: translateY(-5px);
 	color: #faf3dd;
 }
+
+/* for dropdown list start  */
+.navbar-right #profile-photo {
+	position: relative;
+}
+
+.navbar-right #profile-photo ul {
+	background-color: #eaf4f4;
+	border-radius: 1rem;
+	box-shadow: var(--box-shadow);
+	position: absolute;
+	top: 59px;
+	right: -7px;
+	z-index: 10;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	list-style-type: none;
+	display: none;
+}
+
+.navbar-right #profile-photo ul.action {
+	display: inline-block;
+	animation: ul-display 700ms linear forwards;
+	overflow-y: hidden;
+}
+
+@keyframes ul-display {
+	0% {
+		height: 0px;
+	}
+	50% {
+		height: 100%;
+	}
+	100% {
+		height: max-content;
+	}
+}
+
+.navbar-right #profile-photo ul li {
+	cursor: pointer;
+	padding: 11px 0px;
+	/* display: none; */
+	position: relative;
+}
+
+.navbar-right #profile-photo ul li:first-child {
+	border-radius: 1rem 1rem 0 0;
+}
+.navbar-right #profile-photo ul li:last-child {
+	border-radius: 0 0 1rem 1rem;
+}
+
+.navbar-right #profile-photo ul li:hover {
+	background-color: #cce3de;
+}
+
+.navbar-right #profile-photo ul li span {
+	display: flex;
+	align-items: center;
+	color: #2a9d8f;
+}
+.navbar-right #profile-photo ul li span i {
+	margin: 0 15px;
+	font-size: 17px;
+}
+
+.navbar-right #profile-photo ul li h5 {
+	margin: 0;
+	font-size: 17px;
+}
+
+.navbar-right #profile-photo img {
+	cursor: pointer;
+}
+
+/* for dropdown badge  */
+.navbar-right #profile-photo ul li span div {
+	display: flex;
+	color: white;
+	background-color: #ff006e;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 2px;
+	border-radius: 50%;
+	position: absolute;
+	right: 8px;
+}
+
+.navbar-right #profile-photo ul li span div span {
+	color: white;
+}
+
+/* for dropdown list end  */
+
+/* for header badge start  */
+.navbar-right .icon-style .badge {
+	position: relative;
+}
+
+.navbar-right .icon-style .badge div {
+	color: white;
+	position: absolute;
+	top: 11px;
+	right: 11px;
+	background-color: #ff006e;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 2px;
+	border-radius: 50%;
+}
+/* for badge end  */
+
 /* **** navbar-right-end  **** */
+
+/* media query start  */
+@media screen and (max-width: 1300px) {
+	.navbar-right .icon-style {
+		margin: 0 -20px 0 0px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.nav-main-container {
+		padding: 0 47px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.navbar-right .icon-style {
+		margin: 0;
+	}
+
+	.navbar-middle .search-bar {
+		width: 90%;
+		margin: 0 0 0 25px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.nav-main-container {
+		padding: 0 40px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.nav-main-container {
+		padding: 0 12px;
+	}
+}

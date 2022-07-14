@@ -34,7 +34,6 @@ const Intro = () => {
 				<div className="intro-info">
 					<i className="bi bi-envelope-heart-fill"></i>
 					<div>
-					
 						Email : <span>mohammadtangilur@gmail.com</span>
 					</div>
 				</div>
@@ -42,13 +41,12 @@ const Intro = () => {
 				<div className="intro-info">
 					<i className="bi bi-telephone-fill"></i>
 					<div>
-						
 						Phone : <span>+88 01750928575</span>
 					</div>
 				</div>
 
 				<div className="intro-info">
-					<i className="bi bi-geo-alt-fill"></i>
+					<i className="bi bi-rss"></i>
 					<div>
 						Followed by <span>187 peoples</span>
 					</div>
